@@ -1,0 +1,23 @@
+/* globals.css - CORRECT */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can keep your custom variable definitions below */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* You can apply your variables here if needed */
+  background: var(--background);
+  color: var(--foreground);
+}
